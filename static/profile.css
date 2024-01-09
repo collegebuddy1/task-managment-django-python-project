@@ -1,0 +1,37 @@
+.container {
+    position: relative;
+    top: 2rem;
+}
+
+.profilePage {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.cardAccount {
+    width: 250px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardDetails {
+    width: 100%;
+}
+
+.cardDetails > .card-body {
+    font-size: 20px;
+}
+
+@media (max-width: 990px) {
+    .profilePage {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cardAccount {
+        width: 100%;
+    }
+}

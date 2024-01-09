@@ -1,0 +1,39 @@
+.container {
+    margin-top: 1rem;
+}
+
+.addTaskBtn {
+    display: block !important;
+    margin-bottom: 1rem;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.card {
+    width: 20vw;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+}
+
+.card .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media (max-width: 990px) {
+
+    .content {
+      flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+  }

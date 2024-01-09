@@ -1,0 +1,1 @@
+web: gunicorn MiraCouncil.wsgi --log-file -
